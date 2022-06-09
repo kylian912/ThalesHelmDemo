@@ -5,7 +5,7 @@ We hebben een hoofdchart met subcharts. Een lokale subchart genaamd: subchart1 (
 
 ## Om te installeren:
 
-1. Maak een namespace aan met de naam: thales (Deze wordt gebruikt door subchart)
+1. Maak een namespace aan met de naam: thales (Deze wordt gebruikt door subchart1)
 
     ```kubectl create ns thales```
 
