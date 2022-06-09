@@ -13,9 +13,12 @@ We hebben een hoofdchart met subcharts. Een lokale subchart genaamd: subchart1 (
 
     ```kubectl config set-context --current --namespace thales```
 
-3. Kopiër het mapje hoofdchart en subchart1 van github naar de Desktop.
-4. Open de terminal en navigeer naar het mapje hoofdchart.
-5. Met de terminal in hoofdchart, update alle subcharts.
+3. Kopiër het mapje hoofdchart en subchart1 van github naar eigen omgeving.
+
+    ```git clone https://github.com/kylian912/ThalesHelmDemo```
+    
+5. Open de terminal en navigeer naar het mapje hoofdchart.
+6. Met de terminal in hoofdchart, update alle subcharts.
 
     ```helm dependency update```
     
