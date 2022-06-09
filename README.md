@@ -26,3 +26,7 @@ We hebben een hoofdchart met subcharts. Een lokale subchart genaamd: subchart1 (
 7. Controleer of de subcharts correct geinstalleerd zijn. Als het goed is draaien er nu drie pods. 2x subchart1 en 1x grafana.
 
     ```kubectl get pods```
+  
+8. Controleer of de applicatie grafana bereikbaar is.
+    ```kubectl get svc```
+   kopier het CLUSTER-IP en plak het in de browser + het poortnummer :3000
