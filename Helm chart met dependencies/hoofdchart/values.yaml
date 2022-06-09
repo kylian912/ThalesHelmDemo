@@ -1,0 +1,30 @@
+subchart1:
+  enabled: true
+  replicaCount: 2
+  
+mongodb:
+  enabled: false
+  service:
+    type: LoadBalancer
+    port: 27017
+
+wordpress:
+  enabled: false
+
+grafana:
+  enabled: true
+  service:
+    type: LoadBalancer
+    port: 3000
+
+elasticsearch:
+  enabled: false
+  service:
+    type: LoadBalancer
+    port: 9200
+
+joomla:
+  enabled: false
+  service:
+    type: LoadBalancer
+    port: 8080
