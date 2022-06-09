@@ -28,5 +28,7 @@ We hebben een hoofdchart met subcharts. Een lokale subchart genaamd: subchart1 (
     ```kubectl get pods```
   
 8. Controleer of de applicatie grafana bereikbaar is.
+
     ```kubectl get svc```
+    
    kopier het CLUSTER-IP en plak het in de browser + het poortnummer :3000
