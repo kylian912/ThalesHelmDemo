@@ -1,7 +1,7 @@
 # hoofdchart met subcharts
 
 Dit is een voorbeeld van hoe een chart met subcharts gebouwd kan worden in Helm 3.
-We hebben een hoofdchart met subcharts. Een lokale subchart genaamd: subchart1 (nginx webserver). De tweede subchart is grafana van bitnami, opgehaald van internet. In de values.yaml van de hoofdchart zijn ook andere applicaties te vinden. Deze kunnen ook geinstalleerd worden door "enabled=false" naar "enabled=true" te zetten.
+We hebben een hoofdchart met subcharts. Een lokale subchart genaamd: subchart1 (nginx webserver). De tweede subchart is grafana van bitnami, opgehaald van internet. In de values.yaml van de hoofdchart zijn ook andere applicaties te vinden. Deze kunnen geinstalleerd worden door "enabled=false" naar "enabled=true" te zetten.
 
 ## Om te installeren:
 
