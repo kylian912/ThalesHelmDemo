@@ -30,8 +30,16 @@ We hebben een hoofdchart met subcharts. Een lokale subchart genaamd: subchart1 (
 
     ```kubectl get pods```
   
-8. Controleer of de applicatie grafana bereikbaar is.
+8. Controleer of de applicatie subchart1 en grafana bereikbaar zijn.
+
+   Open een nieuwe terminal en start een minikube tunnel.
+   
+   ```minikube tunnel```
+ 
+   Ga terug naar de originale terminal en vraag het CLUSTER-IP op van subchart1
 
     ```kubectl get svc```
     
-   kopier het CLUSTER-IP en plak het in de browser + het poortnummer :3000
+   Kopier het CLUSTER-IP en plak het in de browser + het poortnummer :8080
+   
+   Grafana is te bereiken op CLUSTER-IP + het poortnummer: 3000
